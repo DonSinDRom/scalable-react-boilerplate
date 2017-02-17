@@ -1,0 +1,31 @@
+.search {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.search__front {
+  width: 10%;
+  height: 100%;
+}
+.search__back {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .2);
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+}
+.search__input {
+  color: white;
+  padding: 5px 10px;
+  background: rgba(0, 0, 0, 0.29);
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.71);
+  &:focus {
+    outline: none;
+  }
+}

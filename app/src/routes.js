@@ -31,7 +31,7 @@ export const routes = {
   path: '/',
   indexRoute: {
     getComponent(location, callback) {
-      System.import('./pages/LandingPage') // eslint-disable-line block-scoped-var
+      System.import('./pages/SelectPage') // eslint-disable-line block-scoped-var
         .then(loadRoute(callback))
         .catch(err => errorLoading(err));
     },

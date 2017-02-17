@@ -2,3 +2,5 @@
 export AboutPage from './AboutPage/index';
 export NotFoundPage from './NotFoundPage/index';
 export LandingPage from './LandingPage/index';
+
+export SelectPage from './SelectPage/index';

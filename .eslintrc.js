@@ -16,6 +16,8 @@ module.exports = {
     }
   },
   "rules": {
+    "linebreak-style": ["error", "windows"],
+    "arrow-body-style": 0,
     "func-names": 0,
     "eol-last": 0,
     "react/no-unused-prop-types": 0,
